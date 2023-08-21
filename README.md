@@ -59,7 +59,5 @@ The double linked list implementation includes the following functions:
 
 
 
-Contributions are welcome! If you find any issues or want to add more features/examples, feel free to open a pull request.
-
 
 
