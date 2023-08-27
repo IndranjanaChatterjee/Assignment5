@@ -53,6 +53,7 @@ The double linked list implementation includes the following functions:
 - `insertAtAny`: Inserts a new node at any position.
 - `deleteFromBeginning`: Deletes a node from the beginning.
 - `deleteFromEnd`: Deletes a node from the end.
+- `deleteFromAny`: Deletes a node from any position.
 - `displayForward`: Displays the elements in forward order.
 - `displayBackward`: Displays the elements in backward order.
 
