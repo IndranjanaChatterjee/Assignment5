@@ -1,6 +1,5 @@
-# Assignment5
-## Assignment 5
-# Circular and Double Linked List in C Programming
+
+# Circular and Double Linked List in C Programming  & python programming
 
 
 
