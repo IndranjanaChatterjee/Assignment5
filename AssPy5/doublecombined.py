@@ -65,34 +65,39 @@ class link:
         while(nodes!=None):
             print(nodes.data)
             nodes=nodes.next
-print("kk")
-first=Node(4)
+n=int(input("Enter the number of nodes:"))
 l=link()
-l.insertBeg(first)
-
-second=Node(5)
-l.insertBeg(second)
-third=Node(6)
-l.insertEnd(third)
-th=Node(7)
-l.insertBeg(th)
-thi=Node(8)
-l.insertEnd(thi)
-
-thi=Node(9)
-l.insertAny(thi,5)
+for i in range (n):
+    ele=int(input("enter the element in the list:"))
+    enter=Node(ele)
+    choice=int(input("enter 1 to enter at the beginning and 2 to add the end and 3 to enter at any position:"))
+    match (choice):
+           case 1:
+             l.insertBeg(enter)
+           case 2:
+             l.insertEnd(enter)
+           case 3:
+             bef=int(input("Enter the element after which to be added:"))
+             l.insertAny(enter,bef)
+           case _:
+             print("enter properly")
 l.print()
+d=int(input("Enter 1 to perform deletion and -1 to stop:"))
+while(d!=-1):
+    
+    choice=int(input("enter 1 to delete at the beginning and 2 to delete the end and 3 to delete from any position:"))
+    match (choice):
+           case 1:
+             l.deleteBeg()
+           case 2:
+             l.deleteEnd()
+           case 3:
+             bef=int(input("Enter the element to be deleted:"))
+             l.deleteAny(enter,bef)
+           case _:
+             print("enter properly")
+    d=int(input("Enter 1 to perform deletion and -1 to stop:"))
 print("\n")
-l.deleteAny(6)
 l.print()
-""" l.deleteEnd()
-print("\n")
-l.print()
-l.deleteEnd()
-print("\n")
-l.print()
-l.deleteBeg()
-print("\n")
-l.print() """
 
         
