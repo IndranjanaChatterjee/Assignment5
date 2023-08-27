@@ -2,23 +2,30 @@ class Node:
     def __init__(self,data):
         self.data=data
         self.next=None
-        self.prev=None
+        
+        
 class link:
     def __init__(self):
         self.head=None
     def insert(self,newnode):
         if(self.head==None):
+            newnode.next=newnode
             self.head=newnode
         else:
-            
+            ptr=self.head
+            while(ptr.next!=self.head):
+                ptr=ptr.next
+
+            ptr.next=newnode
             newnode.next=self.head
-            self.head.prev=newnode
             self.head=newnode
+            
     def print(self):
         nodes=self.head
-        while(nodes!=None):
-            print(nodes.data)
+        while(nodes.next!=self.head):
+            print(nodes," ",nodes.data," ",nodes.next)
             nodes=nodes.next
+        print(nodes," ",nodes.data," ",nodes.next)
 print("kk")
 first=Node(4)
 l=link()
