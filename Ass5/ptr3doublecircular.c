@@ -27,7 +27,7 @@ int main()
 		if(start==NULL)
 		{
 			ptr->next=ptr;
-			ptr->next=ptr;
+			ptr->prev=ptr;
 			start=ptr;
 		}
 		else
