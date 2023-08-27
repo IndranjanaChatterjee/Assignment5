@@ -26,8 +26,10 @@ The circular linked list implementation includes the following functions:
 - `createNode`: Creates a new node.
 - `insertAtBeginning`: Inserts a new node at the beginning.
 - `insertAtEnd`: Inserts a new node at the end.
+- `insertAtAny`: Inserts a new node at any position.
 - `deleteFromBeginning`: Deletes a node from the beginning.
 - `deleteFromEnd`: Deletes a node from the end.
+- `deleteFromAny`: Deletes a node from any position.
 - `display`: Displays the elements of the circular linked list.
 
 
