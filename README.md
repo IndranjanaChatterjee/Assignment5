@@ -11,6 +11,7 @@ This repository contains C programming examples and explanations for implementin
 
 Linked lists are data structures that consist of nodes, each containing data and a reference (or link) to the next node. In a double linked list, each node also has a link to the previous node. Circular linked lists are a variant where the last node's link points back to the first node.
 
+
 ## Circular Linked List
 
 ### Features of Circular Linked List
