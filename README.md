@@ -1,9 +1,9 @@
 
-# Circular and Double Linked List in C Programming  & python programming
+# Circular and Double Linked List in C Programming  & python programming. 
 
 
 
-This repository contains C programming examples and explanations for implementing Circular and Double Linked Lists. Linked lists are fundamental data structures that provide dynamic memory allocation and efficient insertion and deletion of elements. In this project, we explore both circular and double linked list implementations with code examples and explanations.
+This repository contains C programming examples and explanations for  implementing Circular and Double Linked Lists. Linked lists are fundamental data structures that provide dynamic memory allocation and efficient insertion and deletion of elements. In this project, we explore both circular and double linked list implementations with code examples and explanations.
 
 
 
